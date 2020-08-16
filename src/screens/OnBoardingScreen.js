@@ -30,12 +30,13 @@ OnBoardingScreen.navigationOptions = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        justifyContent: 'space-around'
     },
     header: {
         fontSize: 24,
         fontWeight: 'bold',
         color: '#3E3E3E',
-        marginTop: 66,
+        marginTop: 33,
         marginStart: 25
     },
     subHeader: {
@@ -48,8 +49,7 @@ const styles = StyleSheet.create({
     nextBT: {
         width: 165,
         height: 57,
-        marginBottom: 51,
-        marginTop: 66,
+        marginTop: 40,
         marginHorizontal: 120,
         borderRadius: 28,
         backgroundColor: '#00A76E',
@@ -60,7 +60,6 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         textAlign: 'center'
-
     }
 
 })

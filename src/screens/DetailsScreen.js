@@ -23,7 +23,7 @@ const DetailsScreen = ({ navigation }) => {
             )
             .then(res => {
                 console.log("first log", res)
-                return data = res.results;
+                 data = res.results;
             })
         console.log("second log", data)
     })
