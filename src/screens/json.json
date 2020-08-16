@@ -1,0 +1,949 @@
+{
+    "html_attributions": [],
+    "next_page_token": "CqQCEwEAAPfOROT4rL5e6HN6sP74g9FQyhbLetGtQoEOYQh5_FZQnKjNL2vlNIfMks5awP1suIPvXd8_2RBGkiuXzXwdMemASiQER1OS2fjpdwRE67sQ_cAXs5LNXb261ZoHyx1Y7cWoy_tYCrL_dEduk2DeE49rgNth_tD7oOv7wgzO5V4Legkg02mxrXxpr6Fl69-TJXXvAq3eETDmw5qRlqXAlCgpopxXS_-d2-_9pmrM00ESU9DpNbqjug6XW7rJeKxxAhk0yto1FPL5J90WrQfojxFWgfS1Xf5vCX2ylBIzw2-eEPKPrH0vHQfXT9h1csfI5CIvLNc1ZTHp-4jxWoBeUFFcctx7PKiWyhojNuTXgtvM9Q9SRNgNGsEKdgED6cdm9BIQVVtpp5ksGebm44D5KrQAeRoUqyo0iqVpBKJJase-N310go3dvSA",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 37.7749295,
+                    "lng": -122.4194155
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.812,
+                        "lng": -122.3482
+                    },
+                    "southwest": {
+                        "lat": 37.70339999999999,
+                        "lng": -122.527
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+            "name": "San Francisco",
+            "photos": [
+                {
+                    "height": 667,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117984326708311583819\">Jon</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAfQ4lcIDIqBeSZ0Qz2oh_hV44hQ9YaxIvIoWidCwe2XE_HD6VyYh10C9cOuqNpgLkUmOuZb6oTxoi6S9QVh9lSJooRyDQTb7VjdJEPvI9aDCKpipvcjh2AzFIu3OnD_rDEhAfavL__pKisO9W_RVKhMzZGhSGgQRsIodnhYxYhP-7df2SdPDe2w",
+                    "width": 1000
+                }
+            ],
+            "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+            "reference": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7775056,
+                    "lng": -122.4242611
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.77879718029151,
+                        "lng": -122.4228385697085
+                    },
+                    "southwest": {
+                        "lat": 37.77609921970851,
+                        "lng": -122.4255365302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Days Inn by Wyndham San Francisco Downtown/Civic Cntr Area",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103961891288845402407\">Days Inn by Wyndham San Francisco Downtown/Civic Cntr Area</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAEf3cON7s_x0wuO1QQfo5mE0ZjWuoJkP3HzmUFpZAyd4pYVHG77SIe7XUnTKZ6PwROfO9qVqe5vmK-5G_9TgePJDfE0CVM3kzzryFXWNZujQIscZ1CoPk6O76nHMb6rFyEhCluV0J47CPO9hRUB-uMotvGhR2UGjWlLBzq8NAa_zO_XkpTiYttA",
+                    "width": 711
+                }
+            ],
+            "place_id": "ChIJH22heKKAhYARHkkLkiruqX8",
+            "plus_code": {
+                "compound_code": "QHHG+27 Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHHG+27"
+            },
+            "rating": 4.1,
+            "reference": "ChIJH22heKKAhYARHkkLkiruqX8",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 322,
+            "vicinity": "465 Grove Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7771861,
+                    "lng": -122.4231806
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7785474802915,
+                        "lng": -122.4217717197085
+                    },
+                    "southwest": {
+                        "lat": 37.7758495197085,
+                        "lng": -122.4244696802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Hayes Valley Inn",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110024773506044228720\">Vicente Jerez Fidalgo</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA9YYaSHNJUDOPIdjjUZRpi6x63ZYMviOGYKciN2U61JMxd7X2B4oomT9H7WX9EJgHk3gMS51qlcPUQwPyiaUZXxWGCZz81wHuFrYzeiRoLKD0VSxA5ps1LrVkURkU_gw3EhAcBFor6BpTiGxODXempLczGhTBvRG84ttDzb2C_k1Lq5nYqNausA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJAQ2zvpiAhYARTcxfopA7klQ",
+            "plus_code": {
+                "compound_code": "QHGG+VP Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHGG+VP"
+            },
+            "rating": 3.9,
+            "reference": "ChIJAQ2zvpiAhYARTcxfopA7klQ",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 217,
+            "vicinity": "417 Gough Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7735319,
+                    "lng": -122.4217876
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7747998802915,
+                        "lng": -122.4203946197085
+                    },
+                    "southwest": {
+                        "lat": 37.7721019197085,
+                        "lng": -122.4230925802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Edwardian Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 533,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114573293221720396624\">Edwardian Hotel</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAnbKfoRu55Aabr8YEd7AIvcF3U1-bygMz9mIzj3u2a5Q4CtUoM_AViSh9RV7RRysfVmZCEhBSktatFig1bGuNC9dbKWH_YfeMA5wOIOqODIHh6CZKNKp_DUk2__X0FrJHEhDjhh_T-LBve7zSYJ_sKHueGhQb-hi5hsZDZC_E9n8hzYulTJg4cQ",
+                    "width": 800
+                }
+            ],
+            "place_id": "ChIJU1XNrp-AhYARQSQHOG2Ixww",
+            "plus_code": {
+                "compound_code": "QHFH+C7 Hayes Valley, San Francisco, CA, USA",
+                "global_code": "849VQHFH+C7"
+            },
+            "rating": 3.8,
+            "reference": "ChIJU1XNrp-AhYARQSQHOG2Ixww",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 231,
+            "vicinity": "1668 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7719618,
+                    "lng": -122.4220014
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7733604302915,
+                        "lng": -122.4207347697085
+                    },
+                    "southwest": {
+                        "lat": 37.7706624697085,
+                        "lng": -122.4234327302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Travelodge by Wyndham San Francisco Central",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 400,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108874057081560021767\">Travelodge by Wyndham San Francisco Central</a>"
+                    ],
+                    "photo_reference": "CmRaAAAADVpJOxfh2iMs1dA5H2CvMuNAIeIoPFodRcI8blrNC2EVrqgFnemMCtFrChu5F9lQB9MMm-iczXiqAXjiOFtbvhDehHLv3Tek48xWzDSWAL2u3wcU4TtoVLEm2NenjoYTEhCFw-8SUAXeA57WW824cKoPGhQ4-hpvDmFPAH6Yp3SZsKYrfhNWvA",
+                    "width": 711
+                }
+            ],
+            "place_id": "ChIJFwX8xJ-AhYARsKrfcnyXwPI",
+            "plus_code": {
+                "compound_code": "QHCH+Q5 SoMa, San Francisco, CA, USA",
+                "global_code": "849VQHCH+Q5"
+            },
+            "rating": 2.7,
+            "reference": "ChIJFwX8xJ-AhYARsKrfcnyXwPI",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1231,
+            "vicinity": "1707 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7654813,
+                    "lng": -122.4318471
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7667733302915,
+                        "lng": -122.4304775197085
+                    },
+                    "southwest": {
+                        "lat": 37.7640753697085,
+                        "lng": -122.4331754802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Beck's Motor Lodge",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108710135569944795378\">Beck&#39;s Motor Lodge</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAwvzBpSBaGdJL8D2HZxvzrTqdaG4of_XYSf9RiStKMc6YWhrqE-E573AIvYUQxebDSQkuhNZ9aZ3Ux7pyMacLOQjSgrRZqzFrm9JDd7ivotJ_pLAKjNB__tHKLJdLIyEYEhD692HwQoJ9zT8r0Foi2HylGhT56iE9mBFCaym62Fa2THlQofMBTg",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJVWGzTxx-j4ARa8ex088IHpc",
+            "plus_code": {
+                "compound_code": "QH89+57 The Castro, San Francisco, CA, USA",
+                "global_code": "849VQH89+57"
+            },
+            "rating": 4.4,
+            "reference": "ChIJVWGzTxx-j4ARa8ex088IHpc",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 443,
+            "vicinity": "2222 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.78661699999999,
+                    "lng": -122.430239
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78789953029149,
+                        "lng": -122.4288886697085
+                    },
+                    "southwest": {
+                        "lat": 37.7852015697085,
+                        "lng": -122.4315866302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Kimpton Buchanan Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 667,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111710603951186719942\">Kimpton Buchanan Hotel</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA6Na54fG1AlQacswOqlbxg-1qtsnjK5d7xW5iQS5Y2HNfCzAnVqNaLEyaaZOWRXZTqPClce4EOEsohX7kmu6lnr-YO6elcEAGOjhf0cWAJe1pWUKRNTHZxC5XEutu-IizEhBtzKfXxdI_UhdnFKeyVWfwGhT4c5fqSaIMPb4gQIx92lYWDl_Hyg",
+                    "width": 1000
+                }
+            ],
+            "place_id": "ChIJDSPUybiAhYARHcLkUulXSkE",
+            "plus_code": {
+                "compound_code": "QHP9+JW Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHP9+JW"
+            },
+            "rating": 4.4,
+            "reference": "ChIJDSPUybiAhYARHcLkUulXSkE",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 622,
+            "vicinity": "1800 Sutter Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7823889,
+                    "lng": -122.4188905
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78373793029149,
+                        "lng": -122.4176207197085
+                    },
+                    "southwest": {
+                        "lat": 37.7810399697085,
+                        "lng": -122.4203186802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "The Embassy Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/115920371435672938467\">The Embassy Hotel</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAio7qgNk6RgttMQnvgU9WDb088uo5JkYyBm8UFvH0wfo2Z_FNa3JVY2KG4RFr522kmDZ_wzR6c2lxJ2hUomxUHuQEmIsYcZrMig54DA5q0LmCQ6ZfAtzjr7O-LhFs42b2EhBjfH1BI_u12NrNFoYajWC-GhRzuY2ZqREwOrDWp9rnUIxBW3_oWw",
+                    "width": 800
+                }
+            ],
+            "place_id": "ChIJkaxkTZeAhYARKUGHC1dMXAI",
+            "plus_code": {
+                "compound_code": "QHJJ+XC Tenderloin, San Francisco, CA, USA",
+                "global_code": "849VQHJJ+XC"
+            },
+            "rating": 3,
+            "reference": "ChIJkaxkTZeAhYARKUGHC1dMXAI",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 369,
+            "vicinity": "610 Polk Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7781667,
+                    "lng": -122.4151667
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7795870302915,
+                        "lng": -122.4138786197085
+                    },
+                    "southwest": {
+                        "lat": 37.7768890697085,
+                        "lng": -122.4165765802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Hotel Whitcomb",
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102206629104916502666\">Manuel Lopez</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA6o3xtELriJuiU7OeuwVJ1vmroJis8ZerBRzDBkypQm5DdrilozGKB6FjRXT8Dnz1OjqkNzj_rLqZjplenlWke_T40YfTu2JqK_GByRvFsH4MbjrBCKeLANg8hVzjvCyDEhBO5KxppD9pJY73O1Q80kIgGhQXx9Hhn7Yy4Tly6sIC4LoJq-meDw",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ1evvfZuAhYAR-beMvqFfSo4",
+            "plus_code": {
+                "compound_code": "QHHM+7W SoMa, San Francisco, CA, USA",
+                "global_code": "849VQHHM+7W"
+            },
+            "rating": 3.3,
+            "reference": "ChIJ1evvfZuAhYAR-beMvqFfSo4",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 3134,
+            "vicinity": "1231 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.78720130000001,
+                    "lng": -122.4265958
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7884181302915,
+                        "lng": -122.4252415697085
+                    },
+                    "southwest": {
+                        "lat": 37.7857201697085,
+                        "lng": -122.4279395302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Queen Anne Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 685,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101063693805818256274\">Queen Anne Hotel</a>"
+                    ],
+                    "photo_reference": "CmRaAAAArkkpH_6FF0kkrz7Jap33CwQeQrUBgKNyUYnp-YUbPgjhlL6NdDWvU6PUdpKlZtCQZp7qNL8fVy1BTazunyfXQF9BC-_950b4PqQFnqAFPAVeBz6535j6xaomGbkbk1KgEhC9VpEmOdAMWxoHCef-WtVDGhT2By-R-ZWAj5RK9OET23elSZOsyw",
+                    "width": 1218
+                }
+            ],
+            "place_id": "ChIJ8Xgnqb-AhYARqchD5vBrLMQ",
+            "plus_code": {
+                "compound_code": "QHPF+V9 Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHPF+V9"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ8Xgnqb-AhYARqchD5vBrLMQ",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 388,
+            "vicinity": "1590 Sutter Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.783058,
+                    "lng": -122.4181435
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7845088802915,
+                        "lng": -122.4166973197085
+                    },
+                    "southwest": {
+                        "lat": 37.78181091970851,
+                        "lng": -122.4193952802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Phoenix Hotel",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1033,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117394101736693999730\">Phoenix Hotel</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA91xz8-VrMWLI0evzqrCzoQOx3FQHQt35eZrzp_7XXk8S5Xj1khBV4kEyK6c0JAkUilQVOiNuU6yISjw8PPzLYdRGDLheXkVoCXCoNpw6tFC7HeV0vccXcT7yiO6uZfRwEhA3XxPQlF6JYyobLGycRnK2GhSJ38ZSvSm2bH5a2AFOZAquCeX_zg",
+                    "width": 1550
+                }
+            ],
+            "place_id": "ChIJ70zQuZCAhYARdKqXrH-M97s",
+            "plus_code": {
+                "compound_code": "QHMJ+6P Tenderloin, San Francisco, CA, USA",
+                "global_code": "849VQHMJ+6P"
+            },
+            "rating": 4.3,
+            "reference": "ChIJ70zQuZCAhYARdKqXrH-M97s",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 575,
+            "vicinity": "601 Eddy Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7872514,
+                    "lng": -122.425517
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7885069802915,
+                        "lng": -122.4241528697085
+                    },
+                    "southwest": {
+                        "lat": 37.7858090197085,
+                        "lng": -122.4268508302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Hotel Majestic",
+            "photos": [
+                {
+                    "height": 3264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109207209021965401626\">Patricia Leininger</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAzjLPGtV01jIMo-vpJgrp8q65yOjN1MJCcgqUQCXTgrdd_ns-S5Jza_yv0dUzoTaNom5Q2TTHCR5cWY2Mm5IkdxNZ0v5fsxLTEBsx3hWZGD0FKh3attwORHjquzXd0_rmEhBHLj08HuwyG_jIyAzDlH_HGhTiXmhNTeOPrstJ-jhzat_DgU9jIw",
+                    "width": 2448
+                }
+            ],
+            "place_id": "ChIJAdskyr-AhYARb8sDBeO4Df0",
+            "plus_code": {
+                "compound_code": "QHPF+WQ Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHPF+WQ"
+            },
+            "rating": 4.1,
+            "reference": "ChIJAdskyr-AhYARb8sDBeO4Df0",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 480,
+            "vicinity": "1500 Sutter Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.78444439999999,
+                    "lng": -122.4188889
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78569013029149,
+                        "lng": -122.4177187697085
+                    },
+                    "southwest": {
+                        "lat": 37.7829921697085,
+                        "lng": -122.4204167302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Civic Center Inn",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107298113788977086003\">vali lightman</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA7s8TNkGIIuO1SUBthVkJOOmBWsKOStobZawyRzLAHlgdH8Jr8DZbGc1-ZiIA6dvr5uYKDPVP9JUmpAH9m3qgkXN6IDIHFTeg0F0aDTbY8PN_J2c4z0lBSi0AgjrnpyREEhA_ZA2eAZtzbJ_beyDSUN0WGhSAxy-TnIx0hrnhreUznm386IvjRA",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJo_Vt2JaAhYARUSDJRJREm88",
+            "plus_code": {
+                "compound_code": "QHMJ+QC Tenderloin, San Francisco, CA, USA",
+                "global_code": "849VQHMJ+QC"
+            },
+            "rating": 2.4,
+            "reference": "ChIJo_Vt2JaAhYARUSDJRJREm88",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 823,
+            "vicinity": "790 Ellis Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.766868,
+                    "lng": -122.4302875
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.76813703029149,
+                        "lng": -122.4288395197085
+                    },
+                    "southwest": {
+                        "lat": 37.76543906970849,
+                        "lng": -122.4315374802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Twin Peaks Hotel",
+            "photos": [
+                {
+                    "height": 1960,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112000401576995570471\">Sascha Abalmas</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAWJ_sv-g0F_G2weBzuXm03mdpgI_Ycz0U6Wp5Ade-OjUIpYDeGH9jqn3wiW90bQINnlTjRiY5GEUpgH5d8pOcnviSqGSSGaXASdnT1gIGTy4CVMt9m5AYfYyWedsMQ95FEhCJX2MmSuK0jUxhBmh9XsxgGhSeehDs94QlafeISXcV3kPrsoo6jQ",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJm3US0B1-j4ARd-QCODfbdIs",
+            "plus_code": {
+                "compound_code": "QH89+PV The Castro, San Francisco, CA, USA",
+                "global_code": "849VQH89+PV"
+            },
+            "rating": 3.5,
+            "reference": "ChIJm3US0B1-j4ARd-QCODfbdIs",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 176,
+            "vicinity": "2160 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7622788,
+                    "lng": -122.4214669
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.76362183029149,
+                        "lng": -122.4202119197085
+                    },
+                    "southwest": {
+                        "lat": 37.7609238697085,
+                        "lng": -122.4229098802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Hotel Tropica - San Francisco",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4048,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100845247658687796813\">al grant</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAVbfIxJiyWYZev_BBcnl72xLAEExQ5-ZM4_cTyeXoaDY9-sLDv1-sbLvHqXMd9zzm6xcmQQfjAj6EqgRX4UdXJ70lefXPqeH67cdH6mk9dZlod9h20rxkigx56mBbLu78EhCrL3vnyXc0utnB0wxV014DGhQaN5kuaZiu0HDqY1Rrl5Q0r8P8gA",
+                    "width": 3036
+                }
+            ],
+            "place_id": "ChIJ6SP20yJ-j4ARLwdcMn6g6aQ",
+            "plus_code": {
+                "compound_code": "QH6H+WC Mission District, San Francisco, CA, USA",
+                "global_code": "849VQH6H+WC"
+            },
+            "rating": 3,
+            "reference": "ChIJ6SP20yJ-j4ARLwdcMn6g6aQ",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 45,
+            "vicinity": "663 Valencia Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7762528,
+                    "lng": -122.4327556
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.77761253029149,
+                        "lng": -122.4315254697085
+                    },
+                    "southwest": {
+                        "lat": 37.77491456970849,
+                        "lng": -122.4342234302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "name": "The Painted Ladies",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2268,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109903365476880151326\">Namita Warier</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA4Hw5mLNtQSnPtxMnuK2pvkXE45pswxccew4WioB7WQoOayFpGvc2lKWcl7Lf8fW5t4XTxUREy0t33TQhnf6RlfC8aK78vLRN-Ns6cCjCD-YuNTgjeLMxesPE_hRvGUTdEhAAFaruEM5D1mR-j-Z_QrDJGhSGpEDLhBGXKZ-mIyvK2SVBPLnHGg",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJuX92JKWAhYARxVmeb8DQIYQ",
+            "plus_code": {
+                "compound_code": "QHG8+GV Western Addition, San Francisco, CA, USA",
+                "global_code": "849VQHG8+GV"
+            },
+            "rating": 4.4,
+            "reference": "ChIJuX92JKWAhYARxVmeb8DQIYQ",
+            "scope": "GOOGLE",
+            "types": [
+                "tourist_attraction",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 16013,
+            "vicinity": "Steiner St &, Hayes Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.77361,
+                    "lng": -122.421622
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7750214302915,
+                        "lng": -122.4202089697085
+                    },
+                    "southwest": {
+                        "lat": 37.7723234697085,
+                        "lng": -122.4229069302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+            "name": "Zuni Café",
+            "photos": [
+                {
+                    "height": 3672,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108343760390243622760\">Danielle Chen</a>"
+                    ],
+                    "photo_reference": "CmRaAAAAqeBklN6txsilUp9mc0enHMFKn_cTVsNBGNI-Buw0oT2YEeCK_U-NHU9Tr8K-hCvGbBqmYOctTbjBILS5CV5Y-n4mjFaUwb6MYxUXTJbG1NoQi-sdFH9fyiUIdVtLwD2_EhAFZj0yM_6xa32LPlkx51zYGhTQ7RqsOQB1ZH38VMehTSxBjIAI5w",
+                    "width": 6786
+                }
+            ],
+            "place_id": "ChIJO7u9q5-AhYARiSSXyWv9eJ8",
+            "plus_code": {
+                "compound_code": "QHFH+C9 Hayes Valley, San Francisco, CA, USA",
+                "global_code": "849VQHFH+C9"
+            },
+            "price_level": 3,
+            "rating": 4.4,
+            "reference": "ChIJO7u9q5-AhYARiSSXyWv9eJ8",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "bar",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1665,
+            "vicinity": "1658 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7666475,
+                    "lng": -122.4295897
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.7680555802915,
+                        "lng": -122.4283385697085
+                    },
+                    "southwest": {
+                        "lat": 37.7653576197085,
+                        "lng": -122.4310365302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+            "name": "24 Hour Fitness",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1440,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103042674083345336606\">Frank Flowers</a>"
+                    ],
+                    "photo_reference": "CmRaAAAA5DC_366Kp9qFsWwuTUP-mm0hCOxzugEgSvG9IOm_s_CKKfo1tF1YnncjFXKKpvUVgX8A6b_fpiZRtpr_kuLrMegpg4eOXmLtnmha9Lu5WtwmNDZDiKjTWAvsQL8I7utOEhDQ4NEJLy3QS2msuUit8F-wGhSKdBmG4ZW8kX0SnuvdBBYZ6hIcLA",
+                    "width": 2560
+                }
+            ],
+            "place_id": "ChIJVemsgR5-j4AR2XqwXA2NOq0",
+            "plus_code": {
+                "compound_code": "QH8C+M5 Mission District, San Francisco, CA, USA",
+                "global_code": "849VQH8C+M5"
+            },
+            "rating": 3.2,
+            "reference": "ChIJVemsgR5-j4AR2XqwXA2NOq0",
+            "scope": "GOOGLE",
+            "types": [
+                "gym",
+                "health",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 173,
+            "vicinity": "2145 Market Street, San Francisco"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 37.7831768,
+                    "lng": -122.4195151
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.78450813029151,
+                        "lng": -122.4181810697085
+                    },
+                    "southwest": {
+                        "lat": 37.78181016970851,
+                        "lng": -122.4208790302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+            "name": "Best Western Red Coach Inn",
+            "photos": [
+                {
+                    "height": 1838,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104972355801312240641\">Best Western Red Coach Inn</a>"
+                    ],
+                    "photo_reference": "CmRaAAAACZfwp_EscCQrfpUu_fSpMpNhXY0trml29Rs5KUF0h6zSoioxLOHxPhYq0RPkMeOsM2a0qijuF57aA8OMv4k75ys5edKHIyNY20plPbUJmeNx9GuevtO8WljY55HymEryEhDjiG92yDYSL_akF8YENsXgGhRddGHUZ61rJVFH-JefE2SzCiTcmQ",
+                    "width": 2880
+                }
+            ],
+            "place_id": "ChIJSRKcMJeAhYARYWSNsdlKAJM",
+            "plus_code": {
+                "compound_code": "QHMJ+75 Tenderloin, San Francisco, CA, USA",
+                "global_code": "849VQHMJ+75"
+            },
+            "rating": 3.3,
+            "reference": "ChIJSRKcMJeAhYARYWSNsdlKAJM",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 207,
+            "vicinity": "700 Eddy Street, San Francisco"
+        },
+        {
+            "geometry": {
+                "location": {
+                    "lat": 37.7988737,
+                    "lng": -122.4661937
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 37.8110851,
+                        "lng": -122.4462309
+                    },
+                    "southwest": {
+                        "lat": 37.7868867,
+                        "lng": -122.4861426
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+            "name": "Presidio of San Francisco",
+            "photos": [
+                {
+                    "height": 2250,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/108613867500769480820\">Julien 44</a>"
+                    ],
+                    "photo_reference": "CmRZAAAA5yS5zjP8rtBXvCs_MwyxoPdjt1Gf7NNTOsUiKwsO_HMsC1yMLAPJuDjo-G82vR4_8_dSkGmnh0CKZNWpxJCYjdPGWAkxlFsqxpOYFU1v0D2Y0NivrZ-8DjyVgVRrDb0mEhC-8iana8fFoNcX7iOh-vb0GhTY7zfsfBkMIN0Igal009ppnXEO8w",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJmxVaCN-GhYARYH--_Fayr7Q",
+            "reference": "ChIJmxVaCN-GhYARYH--_Fayr7Q",
+            "scope": "GOOGLE",
+            "types": [
+                "neighborhood",
+                "political"
+            ],
+            "vicinity": "San Francisco"
+        }
+    ],
+    "status": "OK"
+}
