@@ -12,7 +12,7 @@ const SignUpComponent = ({ navigation, onSignUp }) => {
 
 
     return (
-        <View>
+        <View style={styles.container}>
             <Text style={styles.header}>Username</Text>
             <Input inputContainerStyle={styles.input}
                 placeholder="Create your username"
@@ -57,10 +57,13 @@ const SignUpComponent = ({ navigation, onSignUp }) => {
 
 
 const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'space-around'
+    },
     header: {
         fontSize: 16,
         color: '#3E3E3E',
-        marginTop: 40,
         marginLeft: 25
     },
     input: {
@@ -68,13 +71,11 @@ const styles = StyleSheet.create({
         borderRadius: 28,
         borderBottomWidth: 0,
         marginHorizontal: 15,
-        marginTop: 10,
         paddingHorizontal: 20,
     },
     SignupT: {
         width: 325,
         height: 57,
-        marginTop: 30,
         alignSelf: 'center',
         borderRadius: 28,
         backgroundColor: '#00A76E',

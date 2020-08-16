@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         color: '#3E3E3E',
-        marginTop: 33,
         marginStart: 25
     },
     subHeader: {
@@ -44,12 +43,10 @@ const styles = StyleSheet.create({
         fontWeight: 'normal',
         color: 'rgba(62, 62, 62, 0.8)',
         marginHorizontal: 25,
-        marginTop: 20
     },
     nextBT: {
         width: 165,
         height: 57,
-        marginTop: 40,
         marginHorizontal: 120,
         borderRadius: 28,
         backgroundColor: '#00A76E',
