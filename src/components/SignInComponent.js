@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image, Alert, AsyncStorage, ToastAndroid } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image, Alert, KeyboardAvoidingView, ToastAndroid } from 'react-native'
 import { Input } from 'react-native-elements';
 
 const SignInComponent = ({ navigation, onLogin }) => {
@@ -8,6 +8,7 @@ const SignInComponent = ({ navigation, onLogin }) => {
     const [userName, setUserName] = useState('')
 
     return (
+
         <View style={styles.container}>
             <Text style={styles.header}>Username</Text>
             <Input inputContainerStyle={styles.input}
@@ -50,6 +51,7 @@ const SignInComponent = ({ navigation, onLogin }) => {
                 <Text style={styles.loginTxt}>Login</Text>
             </TouchableOpacity>
         </View >
+
     )
 }
 

@@ -28,7 +28,10 @@ const HomeScreen = ({ navigation }) => {
                 renderItem={({ item }) => {
                     let photo = item.photos[0]
                     return <TouchableOpacity onPress={() => navigation.navigate('Description', {
-                        placeId: item.placeId
+                        placeId: item.placeId,
+                        photoRefrence: photo.photo_reference,
+                        height: photo.height,
+                        width: photo.width
                     })} >
                         <Image style={styles.image}
                             source={{ uri: getPhotoUrl(photo.photo_reference, photo.height, photo.width) }}></Image>
