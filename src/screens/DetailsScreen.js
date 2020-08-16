@@ -60,7 +60,11 @@ const DetailsScreen = ({ navigation }) => {
             <Text style={styles.description}>
                 You will be welcomed amongst olive trees, citron trees and magnolias, in gardens that hide exotic plants and in a wonderful outdoor pool with deck chairs.
          </Text>
-            <TouchableOpacity style={styles.bookBT} onPress={() => { navigation.navigate('Booking') }}>
+            <TouchableOpacity style={styles.bookBT} onPress={() => {
+                navigation.navigate('Booking', {
+                    url: getPhotoUrl(photoRefrence, height, width)
+                })
+            }}>
                 <Text style={styles.signupTxt}>Book</Text>
             </TouchableOpacity>
         </View>

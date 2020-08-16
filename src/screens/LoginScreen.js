@@ -53,25 +53,25 @@ const LoginScreen = ({ navigation }) => {
 
     const FirstRoute = () => (
         <SignInComponent navigation={navigation} onLogin={(userName, userEmail, password) => {
-            // auth()
-            //     .signInWithEmailAndPassword(userEmail, password)
-            //     .then(() => {
-            //         ToastAndroid.show('User account signed in!', ToastAndroid.SHORT);
-            //         navigation.navigate('Home', {
-            //             name: userName,
-            //             hotels: places
-            //         })
-            //     })
-            //     .catch(error => {
-            //         if (error.code === 'auth/invalid-email') {
-            //             ToastAndroid.show('That email address is invalid!', ToastAndroid.SHORT);
-            //         }
-            //         console.error(error);
-            //     });
-            navigation.navigate('Home', {
-                name: userName,
-                hotels: places
-            })
+            auth()
+                .signInWithEmailAndPassword(userEmail, password)
+                .then(() => {
+                    ToastAndroid.show('User account signed in!', ToastAndroid.SHORT);
+                    navigation.navigate('Home', {
+                        name: userName,
+                        hotels: places
+                    })
+                })
+                .catch(error => {
+                    if (error.code === 'auth/invalid-email') {
+                        ToastAndroid.show('That email address is invalid!', ToastAndroid.SHORT);
+                    }
+                    console.error(error);
+                });
+            // navigation.navigate('Home', {
+            //     name: userName,
+            //     hotels: places
+            // })
         }
         } />
     );

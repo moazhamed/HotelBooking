@@ -1,0 +1,153 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "San Francisco",
+                "short_name": "SF",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "San Francisco County",
+                "short_name": "San Francisco County",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "California",
+                "short_name": "CA",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "adr_address": "<span class=\"locality\">San Francisco</span>, <span class=\"region\">CA</span>, <span class=\"country-name\">USA</span>",
+        "formatted_address": "San Francisco, CA, USA",
+        "geometry": {
+            "location": {
+                "lat": 37.7749295,
+                "lng": -122.4194155
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 37.812,
+                    "lng": -122.3482
+                },
+                "southwest": {
+                    "lat": 37.70339999999999,
+                    "lng": -122.527
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+        "name": "San Francisco",
+        "photos": [
+            {
+                "height": 667,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117984326708311583819\">Jon</a>"
+                ],
+                "photo_reference": "CmRaAAAAl3rPDMOaDJbCPil-lGH9VZYxaLivIs3eTYVsKNB5z2V8mur1oQxqim1YSW7yjNnlt4NN4FebY4fQpD3S7oj8bW4ZZ5Pg9nfNhGJCC5W9FKhRDDbsHinRbw13M-POigLLEhCAk_TidbfP9kZU7dxPErn0GhTVrjSjoCYSB3I12oL_qLMLw8MoBg",
+                "width": 1000
+            },
+            {
+                "height": 416,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115055200036247424884\">Rosie crockett</a>"
+                ],
+                "photo_reference": "CmRaAAAAQS-LL7hPI2H75PITAuCvHCHKWiSlUauIfAx5Vzs7yfuDkkrZvqtEtoNCjv2MRsSDL2tDjoQIrGV1jCkORrgCRFqRky_PC5qUKRwkMbk5LPw42exRohiDo7ooga4eynhpEhBFbqFCj8qKQMLA2D1B7yxNGhT-IfGEgw3wngW9Ng1htNyQEk-DSg",
+                "width": 620
+            },
+            {
+                "height": 1012,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108862076113400282635\">AROUND THE WORLD</a>"
+                ],
+                "photo_reference": "CmRaAAAAFJjgIFQjTnlVmz8rUgj7XWhVkwM5Z3U1Y-fio7gQmguG-TMdfX1r-JW8s1XEjiS09Ps9QVBcqigflcRoMbZU-lnngdOzLnD0ij6wVA9OatCsHnqzDEhAWczkeS8BSZpQEhDErFD640BIcZPnfJ4DVQj0GhQB8MDE1TOJr6j0Ga2DjkhraLzkLg",
+                "width": 1079
+            },
+            {
+                "height": 1216,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109849026903893201606\">Jayasimha Nuggehalli</a>"
+                ],
+                "photo_reference": "CmRaAAAAr9vtsYKaU7K3t2G6zP8JwnjspMU4AT8zxjB39kRM3kobt7cDcAP7JmIiS9cxfcvLLayds3dhyF4S7008lCJyJEslsjX8w8rC8hOJa_ZWqbCxLbf6lrOoAIWwXcNa1NteEhDSHRwu8KPxH8Iayn2zxt8cGhS-Wbd9IxYJssFPrR4puv8HW6VTXg",
+                "width": 2585
+            },
+            {
+                "height": 3069,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105697314143570190868\">Alex Kim</a>"
+                ],
+                "photo_reference": "CmRaAAAA8of6BMynH7zfQII6qoRq0jXwTHqvP-kEIMxSGgyJoAIPQDqdta7v7wXA6W2_HcnXwbj-h9laXIL07ST5nkLfZ_2bpAB8U-MC-pKS2TwpDa60yNkAR1sxakygpZC81xVyEhCqq-WOsFeH-BIwuhGqYq4BGhRPTXMCIDCax5q0W5M3ktcD-Tg3QQ",
+                "width": 5212
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/115629561287344026184\">Asif Alam</a>"
+                ],
+                "photo_reference": "CmRaAAAA6KEgCz542VZPH6ljx_5x4VzB-V0yO07SDcyY8KYUml11WRoXFD24gp2Gk76MKf5jztvrUCokHms2fi3rKDECio5P5-m3KJZd4a6mgXI9VyBPqUy4z9M9reRA562loteNEhBYypgXv-pcvnOHUB8KQ-ByGhS_qqpEB9RPJRjtsbbxSmbwAUHEpw",
+                "width": 3024
+            },
+            {
+                "height": 2770,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102346012754464346877\">Dholyan</a>"
+                ],
+                "photo_reference": "CmRaAAAA_ld7_I4deNRVULaprHL59NoBMxTNz96-atgwtKrOmckBao1vk3UAtEL6zuwOG5rxd84p86lPxGKiHE_htNllBBs3au_WszRNpATvSJ9-nRSNNzwZrQAnnOYmYfqIoeeBEhC1d8zbV93RDhZyOKpl_tBfGhRiEzT6p3KUFmFunliwSxFswR9LGA",
+                "width": 5775
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113906018769972691374\">John Delucia</a>"
+                ],
+                "photo_reference": "CmRaAAAA75LAo9Pj9YZe8i5uNblfZf9Kgi5bhVk2GLouKJSAxAIDdB3LsKmv_uj9NrqT0w6y18wjiZpv47igOHC0SFLjWCAOaoKm-XwM7cfXREO0juf0dYuSsktIpVq5ZW-GhW7UEhBd124UE-G-cOJR-QP3-fL9GhQ1EEO9We_BwhoeP3PQXrGoTre0zQ",
+                "width": 4032
+            },
+            {
+                "height": 2655,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112893163188255807150\">Naldy Diaz</a>"
+                ],
+                "photo_reference": "CmRaAAAAeeuquJ9ymy9CXpaXhs1BxzgTXLxDWrqg9ZWuiZKYmmwWbaL0RP8BksL0fxcZ_6QiSH-gtOE58OXKXg5zsDD6hB5cBa7torYx9qGKiKe9UlOABplYJ_A2x1XglRhXeDkSEhDj7nWET1pLQALQYkPW_Rg4GhRT_hsfTpJqpdCMub1lEjhNwZQk8Q",
+                "width": 1991
+            },
+            {
+                "height": 3264,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104101878984964242507\">Henning Gieseke</a>"
+                ],
+                "photo_reference": "CmRaAAAA7qtD4IbpPQrWcKF2sKTOAddhbS5ARsjcZYUX8Yo8RrhObgA9U-YywVhGmpU40nujKSWIX-_n7ZJwLh68O6XwpfS__65CSwJhlQCbsO4JTzpr1u9eKDxTLP97_qTo5BZZEhCJZaHGDDXnL8UMe4Z3nzJTGhT4pNUWqsN6xZtEN4kRL2Vh5_o4IA",
+                "width": 2448
+            }
+        ],
+        "place_id": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "reference": "ChIJIQBpAG2ahYAR_6128GcTUEo",
+        "scope": "GOOGLE",
+        "types": [
+            "locality",
+            "political"
+        ],
+        "url": "https://maps.google.com/?q=San+Francisco,+CA,+USA&ftid=0x80859a6d00690021:0x4a501367f076adff",
+        "utc_offset": -420,
+        "vicinity": "San Francisco",
+        "website": "http://sfgov.org/"
+    },
+    "status": "OK"
+}

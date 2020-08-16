@@ -7,6 +7,8 @@ import SplashScreen from './src/screens/SplashScreen';
 import DetailsScreen from './src/screens/DetailsScreen';
 import HotelBookingScreen from './src/screens/HotelBookingScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
+import TransactionSuccessScreen from './src/screens/TransactionSuccessScreen';
+import TransactionFailedScreen from './src/screens/TransactionFailedScreen copy';
 
 const switchNavigator = createSwitchNavigator({
   Splash: SplashScreen,
@@ -18,8 +20,11 @@ const switchNavigator = createSwitchNavigator({
     Home: HomeScreen,
     Description: DetailsScreen,
     Booking: HotelBookingScreen,
-    Profile: ProfileScreen
+    Profile: ProfileScreen,
+    Success: TransactionSuccessScreen,
+    Fail: TransactionFailedScreen
   })
+
 })
 
 

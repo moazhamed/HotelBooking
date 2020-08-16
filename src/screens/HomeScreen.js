@@ -57,13 +57,15 @@ HomeScreen.navigationOptions = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#E5E5E5'
+        backgroundColor: '#E5E5E5',
+        justifyContent: 'space-around'
+
     },
     header: {
         color: '#3E3E3E',
         fontWeight: 'bold',
         fontSize: 28,
-        marginTop: 37,
+        marginTop: 17,
         marginStart: 25,
         width: 220,
     },
@@ -71,7 +73,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         padding: 40,
         justifyContent: 'space-between',
-        marginTop: 20
     },
     selectedTitle: {
         fontSize: 18,
@@ -104,7 +105,7 @@ const styles = StyleSheet.create({
     },
     textContaner: {
         flexDirection: 'column',
-        marginBottom: 50,
+        marginBottom: 60,
         position: "absolute",
         bottom: 0,
         left: 0,
