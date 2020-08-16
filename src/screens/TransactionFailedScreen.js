@@ -4,26 +4,26 @@ import { Text } from 'native-base'
 
 
 
-const TransactionSuccessScreen = ({ navigation }) => {
+const TransactionFailedScreen = ({ navigation }) => {
 
 
     return (
         <View style={styles.container}>
-            <Image source={require('../assets/success.png')} style={styles.icon} />
+            <Image source={require('../assets/fail.png')} style={styles.icon} />
             <Text style={styles.header}>
-                Transaction Success
+                Transaction Failed
             </Text>
             <Text style={styles.subHeader}>
-                Congratulations! You can see your bookings in the booking section. Enjoy your trip!
+                Please check your internet connection and try again in a moments. Good luck!
             </Text>
-            <TouchableOpacity style={styles.continueBT} onPress={() => { navigation.navigate('Home') }} >
-                <Text style={styles.continueTxt}>Back To Home</Text>
+            <TouchableOpacity style={styles.continueBT} onPress={() => { navigation.navigate('Description') }} >
+                <Text style={styles.continueTxt}>Try Again</Text>
             </TouchableOpacity>
         </View>
     )
 }
 
-TransactionSuccessScreen.navigationOptions = () => {
+TransactionFailedScreen.navigationOptions = () => {
     return {
         header: () => false
     }
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
 
 })
 
-export default TransactionSuccessScreen
+export default TransactionFailedScreen

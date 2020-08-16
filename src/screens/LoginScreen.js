@@ -68,10 +68,6 @@ const LoginScreen = ({ navigation }) => {
                     }
                     console.error(error);
                 });
-            // navigation.navigate('Home', {
-            //     name: userName,
-            //     hotels: places
-            // })
         }
         } />
     );

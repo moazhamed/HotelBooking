@@ -14,7 +14,9 @@ const HomeScreen = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <FontAwesome5 name={'award'} style={styles.padge} onPress={() => navigation.navigate('Profile')} />
+            <FontAwesome5 name={'award'} style={styles.padge} onPress={() => navigation.navigate('Profile', {
+                name: userName
+            })} />
             <Text style={styles.header}>Good Morning, {userName}!</Text>
             <View style={styles.headerContainer}>
                 <Text style={styles.selectedTitle}>Recomended</Text>
