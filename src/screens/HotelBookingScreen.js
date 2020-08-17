@@ -6,6 +6,7 @@ import NetInfo from "@react-native-community/netinfo";
 const HotelBookingScreen = ({ navigation }) => {
 
     const [isConnected, setIsConnected] = useState(false)
+    const [day, setDay] = useState('')
     const url = navigation.getParam('url')
 
     const subscriber = NetInfo.addEventListener(state => {
@@ -25,8 +26,6 @@ const HotelBookingScreen = ({ navigation }) => {
 
 
     const CheckConnectivity = () => {
-        // For Android devices
-        // console.log("Connectivity", isNetworkAvailable)
         if (Platform.OS === "android") {
             if (isConnected == true || subscriber == true) {
                 navigation.navigate('Success')
@@ -42,7 +41,7 @@ const HotelBookingScreen = ({ navigation }) => {
         <View style={styles.container}>
             <Image source={{ uri: url }} style={styles.image}></Image>
 
-            <Calendar> </Calendar>
+            <Calendar onDayPress={(day) => { console.log("Selected day", day) }}> </Calendar>
 
             <View style={{ flexDirection: 'row', justifyContent: 'space-around', backgroundColor: 'white' }}>
                 <TouchableOpacity style={styles.resrvationBT} onPress={() => { CheckConnectivity() }} >

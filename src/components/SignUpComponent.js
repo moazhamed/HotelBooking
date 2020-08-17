@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Image, ToastAndroid } from 'react-native'
 import { Input } from 'react-native-elements';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 
 
@@ -8,7 +9,11 @@ const SignUpComponent = ({ navigation, onSignUp }) => {
     const [userEmail, setUserEmail] = useState('')
     const [password, setPassword] = useState('')
     const [userName, setUserName] = useState('')
+    const [passwordVisiblity, setPasswordVisiblity] = useState(true)
 
+    const togglePasswordVisiblity = () => {
+        setPasswordVisiblity(passwordVisiblity ? false : true);
+    };
 
 
     return (
@@ -36,9 +41,12 @@ const SignUpComponent = ({ navigation, onSignUp }) => {
                 autoCapitalize="none"
                 autoCorrect={false}
                 rightIcon={
-                    <Image source={require('../assets/eye.png')} />
+                    <FontAwesome5
+                        name={'eye-slash'}
+                        style={styles.star}
+                        onPress={() => { togglePasswordVisiblity() }} />
                 }
-                secureTextEntry={true}
+                secureTextEntry={passwordVisiblity}
                 onChangeText={(newPassword) => setPassword(newPassword)} />
             <TouchableOpacity style={styles.SignupT} onPress={() => {
                 if (userName !== '' && userEmail !== '' && password !== '') {

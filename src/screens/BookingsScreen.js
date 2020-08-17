@@ -11,42 +11,44 @@ const BookingsScreen = ({ navigation }) => {
     }
 
     return (
-        <View style={styles.container}>
-            <View style={styles.imageContainer}>
-                <Image style={styles.image}
-                    source={{ uri: getPhotoUrl() }}></Image>
-                <View >
-                    <Text style={styles.title}>Tropicasa De Hotel</Text>
-                    <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
-                    <View style={styles.smallRow}>
-                        <FontAwesome5 name={'star'} style={styles.star} />
-                        <Text style={{ color: 'gold' }}> 4.6</Text>
-                        <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
-                    </View>
-                </View>
-                <Image style={styles.image}
-                    source={{ uri: getPhotoUrl() }}></Image>
-                <View >
-                    <Text style={styles.title}>Tropicasa De Hotel</Text>
-                    <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
-                    <View style={styles.smallRow}>
-                        <FontAwesome5 name={'star'} style={styles.star} />
-                        <Text style={{ color: 'gold' }}> 4.6</Text>
-                        <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
-                    </View>
-                </View>
-                <Image style={styles.image}
-                    source={{ uri: getPhotoUrl() }}></Image>
-                <View >
-                    <Text style={styles.title}>Tropicasa De Hotel</Text>
-                    <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
-                    <View style={styles.smallRow}>
-                        <FontAwesome5 name={'star'} style={styles.star} />
-                        <Text style={{ color: 'gold' }}> 4.6</Text>
-                        <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
-                    </View>
+        // <View style={styles.container}>
+        <View style={styles.imageContainer}>
+            <Image style={styles.image}
+                source={{ uri: getPhotoUrl() }}></Image>
+            <View >
+                <Text style={styles.title}>Tropicasa De Hotel</Text>
+                <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
+                <View style={styles.smallRow}>
+                    <FontAwesome5 name={'star'} style={styles.star} />
+                    <Text style={{ color: 'gold' }}> 4.6</Text>
+                    <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
                 </View>
             </View>
+
+            {/* 
+            <Image style={styles.image}
+                source={{ uri: getPhotoUrl() }}></Image>
+            <View >
+                <Text style={styles.title}>Tropicasa De Hotel</Text>
+                <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
+                <View style={styles.smallRow}>
+                    <FontAwesome5 name={'star'} style={styles.star} />
+                    <Text style={{ color: 'gold' }}> 4.6</Text>
+                    <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
+                </View>
+            </View>
+            <Image style={styles.image}
+                source={{ uri: getPhotoUrl() }}></Image>
+            <View >
+                <Text style={styles.title}>Tropicasa De Hotel</Text>
+                <Text style={styles.subTitle}>Amsterdam, Netherlands</Text>
+                <View style={styles.smallRow}>
+                    <FontAwesome5 name={'star'} style={styles.star} />
+                    <Text style={{ color: 'gold' }}> 4.6</Text>
+                    <Text style={{ color: '#A9A9A9' }} >(1763 Reviews)</Text>
+                </View>
+            </View> */}
+            {/* </View> */}
         </View>
 
     )

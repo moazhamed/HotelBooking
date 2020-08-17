@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image, ToastAndroid } from 'react-native'
 import { FlatList } from 'react-native-gesture-handler';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
@@ -27,22 +27,34 @@ const HomeScreen = ({ navigation }) => {
                 data={places}
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}
+                keyExtractor={place => place.placeId}
                 renderItem={({ item }) => {
-                    let photo = item.photos[0]
-                    return <TouchableOpacity onPress={() => navigation.navigate('Description', {
-                        placeId: item.placeId,
-                        photoRefrence: photo.photo_reference,
-                        height: photo.height,
-                        width: photo.width
-                    })} >
-                        <Image style={styles.image}
-                            source={{ uri: getPhotoUrl(photo.photo_reference, photo.height, photo.width) }}></Image>
-                        <View style={styles.textContaner}>
-                            <Text style={styles.hotelDetails}>{item.placeName}</Text>
-                            <Text style={styles.hoteAddress}>{item.vicinity}</Text>
-                        </View>
-                        <Text style={styles.rating}>{item.rating}</Text>
-                    </TouchableOpacity>
+                    try {
+                        let photo = item.photos[0]
+                        console.log("Flat list item", item.photos)
+                        return <TouchableOpacity onPress={() => navigation.navigate('Description', {
+                            placeId: item.placeId,
+                            photoRefrence: photo.photo_reference,
+                            height: photo.height,
+                            width: photo.width,
+                            name: item.placeName,
+                            vincinty: item.vicinity,
+                            rating: item.rating
+                        })} >
+                            <Image style={styles.image}
+                                source={{ uri: getPhotoUrl(photo.photo_reference, photo.height, photo.width) }}></Image>
+                            <View style={styles.textContaner}>
+                                <Text style={styles.hotelDetails}>{item.placeName}</Text>
+                                <Text style={styles.hoteAddress}>{item.vicinity}</Text>
+                            </View>
+                            <View style={styles.rating}>
+                                <FontAwesome5 name={'star'} style={styles.star} color='gold' />
+                                <Text style={{ color: 'white' }}>{item.rating}</Text>
+                            </View>
+                        </TouchableOpacity>
+                    } catch (err) {
+                        console.log(err)
+                    }
                 }}
             >
             </FlatList>
@@ -107,8 +119,9 @@ const styles = StyleSheet.create({
     },
     textContaner: {
         flexDirection: 'column',
-        marginBottom: 60,
         position: "absolute",
+        marginBottom: 80,
+        marginEnd: 10,
         bottom: 0,
         left: 0,
         marginStart: 46,
@@ -116,9 +129,13 @@ const styles = StyleSheet.create({
     rating: {
         right: 0,
         top: 0,
+        backgroundColor: 'rgba(62, 62, 62, 0.6)',
+        borderRadius: 20,
+        padding: 10,
         position: "absolute",
         color: 'white',
         marginTop: 20,
+        flexDirection: 'row',
         marginEnd: 40
     },
     padge: {
@@ -127,6 +144,9 @@ const styles = StyleSheet.create({
         marginTop: 64,
         width: 24,
         height: 24
+    },
+    star: {
+        marginEnd: 5
     }
 
 })

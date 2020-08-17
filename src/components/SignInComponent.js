@@ -1,14 +1,21 @@
 import React, { useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Image, Alert, KeyboardAvoidingView, ToastAndroid } from 'react-native'
 import { Input } from 'react-native-elements';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+
 
 const SignInComponent = ({ navigation, onLogin }) => {
     const [userEmail, setUserEmail] = useState('')
     const [password, setPassword] = useState('')
     const [userName, setUserName] = useState('')
+    const [passwordVisiblity, setPasswordVisiblity] = useState(true)
+
+
+    const togglePasswordVisiblity = () => {
+        setPasswordVisiblity(passwordVisiblity ? false : true);
+    };
 
     return (
-
         <View style={styles.container}>
             <Text style={styles.header}>Username</Text>
             <Input inputContainerStyle={styles.input}
@@ -33,9 +40,12 @@ const SignInComponent = ({ navigation, onLogin }) => {
                 autoCapitalize="none"
                 autoCorrect={false}
                 rightIcon={
-                    <Image source={require('../assets/eye.png')} />
+                    <FontAwesome5
+                        name={'eye-slash'}
+                        style={styles.star}
+                        onPress={() => { togglePasswordVisiblity() }} />
                 }
-                secureTextEntry={true}
+                secureTextEntry={passwordVisiblity}
                 onChangeText={(newPassword) => setPassword(newPassword)} />
             <TouchableOpacity >
                 <Text style={styles.forget}>Forgot Password?</Text>
@@ -99,6 +109,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#fff',
+    },
+    star: {
+        width: 20,
+        height: 20
     }
 
 })
